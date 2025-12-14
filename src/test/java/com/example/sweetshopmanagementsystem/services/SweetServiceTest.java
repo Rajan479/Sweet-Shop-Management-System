@@ -55,5 +55,4 @@ public class SweetServiceTest {
         assertEquals(90, result.getQuantity());
         verify(sweetRepository).save(any(SweetEntity.class));
     }
-
 }
