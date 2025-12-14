@@ -30,7 +30,7 @@ Shop Management System**
 **(14)** Added the CorsConfig for connecting the frontend and backend using addCorsMappings.
 
 Notes:
-    models represents the tabel data you are adding and pojo class.
-    services contain actual business logic
-    repositories contains database access logic
-    dtos used for api data transfer
+    models represents the tabel data you are adding and pojo class,
+    services contain actual business logic,
+    repositories contains database access logic,
+    dtos used for api data transfer.
