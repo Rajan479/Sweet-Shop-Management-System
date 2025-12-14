@@ -51,8 +51,11 @@ public class SweetServiceTest {
         SweetEntity result = sweetService.purchaseSweet(1L, 10);
 
         // Then
-        assertNotNull(result);
-        assertEquals(90, result.getQuantity());
+        assertNotNull(result, "Result should not be null");
+        assertEquals(90, result.getQuantity(), "Quantity should be reduced by 10");
+        assertEquals(1L, result.getId());
+        assertEquals("Chocolate Bar", result.getSweetName());
+        verify(sweetRepository).findById(1L);
         verify(sweetRepository).save(any(SweetEntity.class));
     }
 }
