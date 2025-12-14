@@ -14,3 +14,5 @@ Shop Management System**
 **(6)** Created the services package and added the SweetService class and all the CURD operations like add sweet, update sweet, etc. using the SweetRepository interface.
 
 **(7)** Created the controllers pacakge and added the SweetController, in this controller added the route for adding the sweets as post method.
+
+**(8)** In the SweetController added the get route for get the all sweets, get route for search the sweet by either sweetname or category or price range and for this @requestparam used.
