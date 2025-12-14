@@ -16,3 +16,21 @@ Shop Management System**
 **(7)** Created the controllers pacakge and added the SweetController, in this controller added the route for adding the sweets as post method.
 
 **(8)** In the SweetController added the get route for get the all sweets, get route for search the sweet by either sweetname or category or price range and for this @requestparam used.
+
+**(9)** Then added the jwttoken and bcrypt library in the build.gardle where the bcrypt libray used for the encryption of password and jwttoken is for authentication.
+
+**(10)** Implemented the JwtService for jwttoken and add the code.
+
+**(11)** After that AuthControllers are implemented and used the UserRegistartionRequestDto,UserRegistartionResponseDto, UserLoginRequestDto and UserLoignResponseDto. 
+
+**(12)** Added the adpters also that is used for the converting object to another object
+
+**(13)** Added the configurations package and complete the springsecurity for basic configuration for example on which request admin only allow and all the requests are authenticated.
+
+**(14)** Added the CorsConfig for connecting the frontend and backend using addCorsMappings.
+
+Notes:
+    models represents the tabel data you are adding and pojo class.
+    services contain actual business logic
+    repositories contains database access logic
+    dtos used for api data transfer
